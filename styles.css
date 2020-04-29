@@ -1,0 +1,287 @@
+.body {
+  background-color: #FFFFFF;
+  font-family: 'Manrope', sans-serif;
+}
+
+.nav {
+  max-width: 100%;
+  height: 100px;
+  display: grid;
+}
+
+.logo-nav {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.img-logo {
+  padding-top: 20px;
+  padding-left: 30px;
+  width: 250px;
+  height: 70px;
+}
+
+.nav-home {
+  grid-row: 1;
+  grid-column: 2;
+  padding-left: 20px;
+}
+
+.nav-download {
+  grid-row: 1;
+  grid-column: 3;
+  padding-left: 20px;
+}
+
+.nav-contact {
+  grid-row: 1;
+  grid-column: 4;
+  padding-left: 20px;
+}
+
+.nav-register {
+  grid-row: 1;
+  grid-column: 5;
+  padding-left: 20px;
+}
+
+.nav-faq {
+  grid-row: 1;
+  grid-column: 6;
+  padding-left: 20px;
+}
+
+.nav-international {
+  grid-row: 1;
+  grid-column: 7;
+  padding-left: 20px;
+}
+
+.nav-button-text {
+  padding-top: 10px;
+  color: #262262;
+  font-size: 25px;
+}
+
+.section-home {
+  max-width: 100%;
+  height: 900px;
+  background-image: url('background.png');
+}
+
+.div-title {
+  width: 100%;
+  text-align: center;
+  padding-top: 350px;
+}
+
+.title-home {
+  color: #FFFFFF;
+  font-size: 55px; 
+}
+
+.stores-button {
+  width: 100%;
+  text-align: center;
+  display: grid;
+  padding-top: 100px;
+}
+
+.div-image-store-button-ios {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.div-image-store-button-android {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.image-store {
+  width: 324px;
+  height: 124;
+  border-radius: 10px;
+}
+
+.section-faq {
+  max-width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+}
+
+.questions {
+  padding-left:40px;
+}
+
+.question-text {
+  color: #262262;
+  font-size: 25px;
+  font-style: bold;
+}
+
+.answer-text {
+  color: #262262;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.section-contact {
+  max-width: 100%;
+  height: 900px;
+  background-color: #262262;
+}
+
+.contact {
+  padding-top: 70px;
+  display: grid;
+  text-align: center;
+}
+
+.info-contact {
+  grid-column: 1;
+  grid-row:1;
+  height: 750px;
+}
+
+.form-contact {
+  grid-column: 2;
+  grid-row:1;
+  height: 750px;
+}
+
+.address-text {
+  color:#FFFFFF;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.map-image {
+  padding-top: 130px;
+  width: 500px;
+  height: 250px;
+}
+
+.form-contact {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.contact-form-title {
+  font-size: 25px;
+  color:#262262;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.input-form {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #262262;
+  border-radius: 10px;
+}
+
+.botone-container {
+  width: 90%;
+}
+
+.btn-digo {
+  margin-top:10px;
+  padding: 25px;
+  background-color: #262262;
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 150px;
+  height: 212;
+  border-radius: 10px;
+}
+
+.container-footer {
+  padding-left: 50px;
+  display: grid;
+}
+
+.column-footer {
+  grid-column: 1;
+}
+
+.column-footer-2 {
+  grid-column: 2;
+}
+.column-footer-3 {
+  grid-column: 3;
+}
+
+.column-footer-4 {
+  grid-column: 4;
+}
+
+.title-footer {
+  padding-top: 3px;
+  color: #262262;
+  font-size: 30px;
+}
+
+.text-footer {
+  text-align: left;
+  color: #262262;
+  font-size: 25px;
+}
+
+#floating-button{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #ffffff;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px #000;
+}
+
+.plus{
+  color: white;
+  position: absolute;
+  top: 0;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 55px;
+  font-size: 38px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  animation: plus-out 0.3s;
+  transition: all 0.3s;
+}
+
+#container-floating{
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 50px;
+}
+
+#container-floating:hover{
+  height: 400px;
+  width: 90px;
+  padding: 30px;
+}
+
+#container-floating:hover .plus{
+  animation: plus-in 0.15s linear;
+  animation-fill-mode: forwards;
+}
+
+.plus {
+  padding: 8px;
+}
